@@ -1,0 +1,123 @@
+    unknown CSS property:
+	-ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+
+
+
+
+str 305:
+.screen-reader-text:focus {
+    (del) font-size: 14px;
+    font-size: 0.875rem;
+}
+------------------------------------
+
+????str 784:
+.item-h1 {
+    height: 100% !important;
+    height: auto !important;
+}
+------------------------------------
+
+str 1178:
+.icon-wrapper p small:after {
+    content: "\f105";
+   (del) font-family: FontAwesome;
+    margin-left: 5px;
+------------------------------------
+	
+str 1283:
+.message-box h2 {
+    (del) margin-top: 0;
+------------------------------------	
+
+str 1409:
+	(del all)
+	/* Divider Styles */
+
+.divider-wrapper {
+    width: 100%;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+    height: 540px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.divider-wrapper:hover {
+    cursor: none;
+}
+
+.divider-bar {
+    position: absolute;
+    width: 10px;
+    left: 50%;
+    top: -10px;
+    bottom: -15px;
+}
+
+.code-wrapper {
+    border: 1px solid #ffffff;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url("uploads/code.jpg") no-repeat;
+}
+
+.design-wrapper {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+.design-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url("uploads/design.jpg") no-repeat;
+}
+-------------------------------------
+
+str 1609:
+.bootstrap-select .dropdown-toggle:focus {
+  (del)  outline: thin dotted #333333 !important;
+    outline: 5px auto -webkit-focus-ring-color !important;
+------------------------------------
+
+str 1980:
+.cac h3 {
+    padding: 60px 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+   (del) line-height: !important;
+------------------------------------
+
+	
+str 2265:
+#preloader {
+    width: 100%;
+(del)    display: block;
+	display: flex;
+------------------------------------
+
+------------------------------------
+
+------------------------------------
+
+------------------------------------
+
+------------------------------------
+
+------------------------------------
