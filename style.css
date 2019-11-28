@@ -2177,7 +2177,6 @@ select.mobile-device {
 .footer-distributed form i {
     width: 18px;
     height: 18px;
-    position: absolute;
     top: 16px;
     right: 18px;
     color: #999;
@@ -2185,6 +2184,13 @@ select.mobile-device {
     margin-top: 6px;
 }
 
+.footer-distributed form button {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    background-color: #181818;
+    border: 0;
+}
 
 /*------------------------------------------------------------------
     MISC
