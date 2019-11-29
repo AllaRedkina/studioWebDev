@@ -404,14 +404,18 @@
                             <h3>Подпишись на новости</h3>
 							<p>Узнавай об акциях, распродажах и новинках от STUDIO WEB DEVELOPER. Никакого спама, мы заботимся о клиенте в каждой мелочи. <br><br>Хочешь быть первым?</p>
                         </div>
-						
-						<div class="footer-right">
-							<!--<form method="get" action="#"> ectype="text/plain"  action="mailto:allairedkina@gmail.com"-->
-                            <form name="mailex" method="post" action="subscribe.php">
-                                <input placeholder="Подпишись на новости.." name="email" type="email" required>
-                                <button type="submit"><i class="fa fa-envelope-o"></i></button>
-							</form>
-						</div>
+
+                        <div class="footer-right">
+                            <!--<form method="get" action="#"> ectype="text/plain"  action="mailto:allairedkina@gmail.com"-->
+                            <div id="message2"></div>
+
+                            <form name="mailex" method="post" action="subscribe.php" id="subscribe">
+                                <fieldset class="row-fluid">
+                                    <input placeholder="Подпишись на новости.." name="email" type="email" id="email_subscribe" required>
+                                    <button type="submit"  id="submit_subscribe" ><i class="fa fa-envelope-o"></i></button>
+                                </fieldset>
+                            </form>
+                        </div>
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
             </div><!-- end row -->

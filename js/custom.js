@@ -133,6 +133,34 @@
             return false;
         });
     });
+    /* ==============================================
+     SUBSCRIBE -->
+     =============================================== */
+    jQuery(document).ready(function() {
+        $('#subscribe').submit(function() {
+            var action = $(this).attr('action');
+            $("#message2").slideUp(750, function() {
+                $('#message2').hide();
+                $('#submit_subscribe')
+                    .after('<img src="images/ajax-loader.gif" class="loader" />')
+                    .attr('disabled', 'disabled');
+                $.post(action, {
+                        email_subscribe: $('#email_subscribe').val()
+                    },
+                    function(data) {
+                        document.getElementById('message2').innerHTML = data;
+                        $('#message2').slideDown('slow');
+                        $('#subscribe img.loader').fadeOut('slow', function() {
+                            $(this).remove()
+                        });
+                        $('#submit_subscribe').removeAttr('disabled');
+                        if (data.match('success') != null) $('#subscribe').slideUp('slow');
+                    }
+                );
+            });
+            return false;
+        });
+    });
 
     /* ==============================================
      CODE WRAPPER -->

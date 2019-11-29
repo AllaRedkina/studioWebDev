@@ -477,9 +477,13 @@
 
                         <div class="footer-right">
                             <!--<form method="get" action="#"> ectype="text/plain"  action="mailto:allairedkina@gmail.com"-->
-                            <form name="mailex" method="post" action="subscribe.php">
-                                <input placeholder="Подпишись на новости.." name="email" type="email" required>
-                                <button type="submit"><i class="fa fa-envelope-o"></i></button>
+                            <div id="message2"></div>
+
+                            <form name="mailex" method="post" action="subscribe.php" id="subscribe">
+                                <fieldset class="row-fluid">
+                                    <input placeholder="Подпишись на новости.." name="email" type="email" id="email_subscribe" required>
+                                    <button type="submit"  id="submit_subscribe" ><i class="fa fa-envelope-o"></i></button>
+                                </fieldset>
                             </form>
                         </div>
                     </div><!-- end clearfix -->
