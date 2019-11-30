@@ -3276,3 +3276,13 @@ select.mobile-device {
 .dmtop.show {
     bottom: 20px;
 }
+
+
+.about-us li{
+    list-style: decimal;
+}
+
+#about-title, #about-title .section-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
