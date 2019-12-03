@@ -749,7 +749,7 @@ li.social-links a {
     margin: 0;
 }
 
-.section-title h3 {
+.section-title h2, .section-title h3 {
     font-size: 42px;
     font-weight: 500;
     line-height: 62px;
@@ -760,6 +760,7 @@ li.social-links a {
 
 .section.colorsection p,
 .section.colorsection h3,
+.section.db h2,
 .section.db h3,
 .section.db h4 {
     color: #ffffff;
