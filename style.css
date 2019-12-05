@@ -2257,7 +2257,7 @@ select.mobile-device {
     color: #d98c8f;
     margin: 0 !important;
     padding: 0 !important;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 .stat-wrap p {
@@ -2266,7 +2266,7 @@ select.mobile-device {
     margin: 0;
     font-weight: 700;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
@@ -2764,7 +2764,7 @@ select.mobile-device {
 .btn-light:hover,
 .btn-light:focus {
     border-color: #b4191f;
-    color: rgba(255, 255, 255);
+    color: rgba(255, 255, 255, 0.4);
 	background: #393939;
 }
 
@@ -3130,24 +3130,31 @@ select.mobile-device {
     position: relative;
 }
 .pricingTable .pricing-content li:before,
-.pricingTable .pricing-content li.disable:before{
-    content: "\e963";
+.pricingTable .pricing-content li.disable:before,
+.pricingTable .pricing-content li.enable:before{
+    content: "\e9ef";
     font-family: 'IcoMoon-Free';
     font-weight: 900;
     width: 25px;
     height: 25px;
     line-height: 25px;
     border-radius: 50%;
-    background: #98c458;
+    background: #636da1;
     text-align: center;
     color: #fff;
     position: absolute;
     left: -50px;
 }
 .pricingTable .pricing-content li.disable:before{
-    content: "\e95f";
+    content: "\ea0f";
     background: #fe6c6c;
 }
+
+.pricingTable .pricing-content li.enable:before{
+    content: "\ea10";
+    background: #98c458;
+}
+
 .pricingTable .pricingTable-signup{
     display: inline-block;
 	padding: 0px 20px;
