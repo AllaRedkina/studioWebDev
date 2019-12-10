@@ -1519,7 +1519,9 @@ hr.invis1 {
 
 #features i img {
     display: table;
-    margin: 0 auto;
+    margin: 15px auto;
+    width: 35px;
+    height: 35px;
 }
 
 .features-left li i:before,
@@ -2815,7 +2817,7 @@ select.mobile-device {
 
 
 .banner-bg-1{
-	background: url(uploads/city_1920.jpg);
+	background: url(uploads/top_page2.jpg);
 	padding: 120px 0;	
 	background-clip: initial;
 	background-color: rgba(0, 0, 0, 0);
