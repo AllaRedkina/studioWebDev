@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 
     <!-- Basic -->
     <meta charset="utf-8">
@@ -33,7 +34,7 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    [endif]-->
 
 </head>
 <body>
@@ -170,7 +171,7 @@
                             <li class="disable">уникальные тексты</li>
                             <li class="disable">реклама и продвижение</li>
                         </ul>
-                        <a href="#" class="pricingTable-signup">Заказать </a>
+                        <button type="button" class="btn btn-light btn-radius btn-brd grd1 btn-block" data-toggle="modal" data-target="#ModalMail" data-whatever="Создание сайта">Заказать </button>
                     </div>
                 </div>
 
@@ -199,14 +200,14 @@
                             <li class="disable">правки технических ошибок</li>
                             <li class="disable">уникальные тексты</li>
                         </ul>
-                        <a href="#" class="pricingTable-signup">Заказать </a>
+                        <button type="button" class="btn btn-light btn-radius btn-brd grd1 btn-block" data-toggle="modal" data-target="#ModalMail" data-whatever="SEO+SMM">Заказать </button>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6">
                     <div class="pricingTable blue">
                         <div class="pricingTable-header">
-                            <h3 class="title">Сопровождение</h3>
+                            <h3 class="title">Эскорт</h3>
                             <span class="sub-title">тексты и изображения</span>
                             <span class="year">Скидка <br>20%/6 мес</span>
                         </div>
@@ -228,9 +229,48 @@
                             <li class="enable">стоковые изображения</li>
                             <li class="disable">работа в соцсетях</li>
                         </ul>
-                        <a href="#" class="pricingTable-signup">Заказать </a>
+                        <button type="button" class="btn btn-light btn-radius btn-brd grd1 btn-block" data-toggle="modal" data-target="#ModalMail" data-whatever="Эскорт">Заказать </button>
                     </div>
                 </div>
+
+                <!--Modal window-->
+                <div class="modal fade" id="ModalMail" tabindex="-1" role="dialog" aria-labelledby="ModalMailLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ModalMailLabel">Заказать</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form  name="mail_price" method="post" action="mail_price.php" id="mail_price">
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Ваш телефон:</label>
+                                        <input type="text" class="form-control" id="recipient-phone" name="recipient-phone">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Ваш email:</label>
+                                        <input type="email" class="form-control" id="recipient-email" name="recipient-email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="recipient-name" class="col-form-label">Вид услуги:</label>
+                                        <input type="text" class="form-control type-service" id="recipient-name" name="recipient-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-text" class="col-form-label">Подробности:</label>
+                                        <textarea class="form-control" id="message-text" name="message-text"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                                <button type="submit" id="submit_mail_price" class="btn btn-primary" onclick='$("#ModalMail").modal("hide")'>Отправить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end Modal window-->
+
             </div><!-- end row -->
 
             <div>
@@ -436,7 +476,8 @@
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/portfolio.js"></script>
-    <script src="js/hoverdir.js"></script>    
+    <script src="js/hoverdir.js"></script>
+    <script src="js/price_modal.js"></script>
 
 </body>
 </html>
