@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b32d97b0-e3c0-434a-a7b6-7f8fa46e8475" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/js/price_modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail_price.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testimonials.html" beforeDir="false" afterPath="$PROJECT_DIR$/testimonials.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +17,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
-              <caret line="529" column="54" lean-forward="true" selection-start-line="529" selection-start-column="54" selection-end-line="529" selection-end-column="54" />
+            <state relative-caret-position="368">
+              <caret line="3327" lean-forward="true" selection-start-line="3327" selection-end-line="3327" />
             </state>
           </provider>
         </entry>
@@ -62,8 +52,8 @@
       <file leaf-file-name="pricing.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pricing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="228" column="72" lean-forward="true" selection-start-line="228" selection-start-column="72" selection-end-line="228" selection-end-column="72" />
+            <state relative-caret-position="334">
+              <caret line="264" column="34" lean-forward="true" selection-start-line="264" selection-start-column="34" selection-end-line="264" selection-end-column="34" />
               <folding>
                 <element signature="e#13258#13265#1" expanded="true" />
               </folding>
@@ -83,8 +73,8 @@
       <file leaf-file-name="price_modal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/price_modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="102">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -110,10 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>banner</find>
-      <find>h2</find>
-      <find>.testimonial h3</find>
-      <find>.desc h3 i</find>
       <find>section-title</find>
       <find>.section.db h3</find>
       <find>Наши преимущества</find>
@@ -140,6 +126,10 @@
       <find>New message</find>
       <find>.slider-bg-three</find>
       <find>butt</find>
+      <find>message-box</find>
+      <find>modal-title</find>
+      <find>.btn-li</find>
+      <find>color</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,7 +143,6 @@
         <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/subscribe.php" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/features.html" />
@@ -164,6 +153,7 @@
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/mail_price.php" />
         <option value="$PROJECT_DIR$/js/price_modal.js" />
+        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/pricing.html" />
       </list>
     </option>
@@ -235,12 +225,12 @@
       <workItem from="1574937422132" duration="33401000" />
       <workItem from="1575275249855" duration="40088000" />
       <workItem from="1575886101752" duration="6614000" />
-      <workItem from="1575983054903" duration="11452000" />
+      <workItem from="1575983054903" duration="14214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107661000" />
+    <option name="totallyTimeSpent" value="110423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -570,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="529" column="54" lean-forward="true" selection-start-line="529" selection-start-column="54" selection-end-line="529" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -609,6 +592,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/price_modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mail_price.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -616,17 +606,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/price_modal.js">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="368">
+          <caret line="3327" lean-forward="true" selection-start-line="3327" selection-end-line="3327" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pricing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="228" column="72" lean-forward="true" selection-start-line="228" selection-start-column="72" selection-end-line="228" selection-end-column="72" />
+        <state relative-caret-position="334">
+          <caret line="264" column="34" lean-forward="true" selection-start-line="264" selection-start-column="34" selection-end-line="264" selection-end-column="34" />
           <folding>
             <element signature="e#13258#13265#1" expanded="true" />
           </folding>

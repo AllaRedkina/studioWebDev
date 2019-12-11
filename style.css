@@ -3309,3 +3309,24 @@ select.mobile-device {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+
+#ModalMailLabel {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 62px;
+    text-transform: none;
+}
+
+.modal-content {
+    padding: 13px 40px;
+    font-size: 18px;
+    border: 2px solid #b4191f;
+    color: #b4191f;
+
+    -webkit-border-radius: 25px 0 25px 0;
+    -moz-border-radius: 25px 0 25px 0;
+    border-radius: 25px 0 25px 0;
+}
