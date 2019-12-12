@@ -3149,7 +3149,7 @@ select.mobile-device {
 .pricingTable .pricing-content li.disable:before,
 .pricingTable .pricing-content li.enable:before{
     content: "\e9ef";
-    font-family: 'IcoMoon-Free';
+    font-family: 'IcoMoon-Free', serif;
     font-weight: 900;
     width: 25px;
     height: 25px;
