@@ -48,7 +48,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999;
+    color: #5d5b5b;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     line-height: 1.80857;
@@ -1184,7 +1184,7 @@ li.social-links a {
 
 .icon-wrapper p small {
     display: block;
-    color: #999;
+    color: #5d5b5b;
     margin-top: 10px;
     text-transform: none;
     font-weight: 600;
@@ -1293,7 +1293,7 @@ li.social-links a {
     font-weight: 600;
     letter-spacing: 0.5px;
     font-size: 15px;
-    color: #999;
+    color: #5d5b5b;
 }
 
 .message-box h2 {
@@ -1313,7 +1313,7 @@ li.social-links a {
     padding-top: 10px;
     font-size: 19px;
     font-style: italic;
-    color: #999;
+    color: #5d5b5b;
     padding-bottom: 0;
 }
 
@@ -1427,7 +1427,7 @@ hr.invis1 {
     FEATURES
 -------------------------------------------------------------------*/
 
-.customwidget h1 {
+.customwidget h2 {
     font-size: 44px;
     color: #ffffff;
     padding: 15px 0 25px;
@@ -1463,6 +1463,7 @@ hr.invis1 {
     font-style: italic;
     font-size: 18px;
     padding: 0 0 10px;
+    color: #999;
 }
 
 .img-center img {
@@ -1477,6 +1478,7 @@ hr.invis1 {
 #features li p {
     margin-bottom: 0;
     padding-bottom: 0;
+    color: #999;
 }
 
 #features li {
