@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b32d97b0-e3c0-434a-a7b6-7f8fa46e8475" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/images/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/logo-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logos/logo-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logos/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/ipad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/slider/hand_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/slider/hand_1920.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/slider/mockup_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/slider/mockup_1920.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/slider/notepad_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/slider/notepad_1920.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/slider/seo_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/slider/seo_1920.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/slider/site_full.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/slider/site_full.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/slider/smm_1920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/slider/smm_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,17 +17,17 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="2227" column="12" lean-forward="true" selection-start-line="2227" selection-start-column="12" selection-end-line="2227" selection-end-column="12" />
+            <state relative-caret-position="37859">
+              <caret line="2227" column="12" selection-start-line="2227" selection-start-column="12" selection-end-line="2227" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7646">
-              <caret line="483" column="48" selection-start-line="483" selection-start-column="48" selection-end-line="483" selection-end-column="48" />
+            <state relative-caret-position="422">
+              <caret line="507" column="30" lean-forward="true" selection-start-line="507" selection-start-column="30" selection-end-line="507" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -43,19 +35,18 @@
       <file leaf-file-name="owl.carousel.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+            <state relative-caret-position="867">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="owl.carousel.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="owl.carousel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4131">
+            <state>
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,8 +118,8 @@
         <option value="$PROJECT_DIR$/features.html" />
         <option value="$PROJECT_DIR$/robot.txt" />
         <option value="$PROJECT_DIR$/portfolio.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -152,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,17 +158,19 @@
             <path>
               <item name="studioWebDev" type="b2602c69:ProjectViewProjectNode" />
               <item name="studioWebDev" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studioWebDev" type="b2602c69:ProjectViewProjectNode" />
               <item name="studioWebDev" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="testimonial" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,12 +206,13 @@
       <workItem from="1574937422132" duration="33401000" />
       <workItem from="1575275249855" duration="40088000" />
       <workItem from="1575886101752" duration="6614000" />
-      <workItem from="1575983054903" duration="25719000" />
+      <workItem from="1575983054903" duration="27558000" />
+      <workItem from="1576239892406" duration="1659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121928000" />
+    <option name="totallyTimeSpent" value="125426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -292,13 +285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1870">
           <caret line="110" column="41" lean-forward="true" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -391,13 +377,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../studioWeb1/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="2037" column="4" selection-start-line="2037" selection-start-column="1" selection-end-line="2037" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../studioWeb1/style.css" />
     <entry file="file://$PROJECT_DIR$/style_css.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -446,13 +426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/testimonials.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -478,9 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1766">
           <caret line="258" column="42" selection-start-line="258" selection-start-column="42" selection-end-line="258" selection-end-column="42" />
-          <folding>
-            <element signature="e#13258#13265#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,13 +462,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robot.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/robot.txt" />
     <entry file="file://$PROJECT_DIR$/subscribe.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -516,13 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,9 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="205" column="22" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
-          <folding>
-            <element signature="e#28070#28076#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -561,40 +516,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="370" column="35" selection-start-line="370" selection-start-column="35" selection-end-line="370" selection-end-column="35" />
-          <folding>
-            <element signature="e#23505#23511#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="2227" column="12" lean-forward="true" selection-start-line="2227" selection-start-column="12" selection-end-line="2227" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7646">
-          <caret line="483" column="48" selection-start-line="483" selection-start-column="48" selection-end-line="483" selection-end-column="48" />
+        <state relative-caret-position="37859">
+          <caret line="2227" column="12" selection-start-line="2227" selection-start-column="12" selection-end-line="2227" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        <state relative-caret-position="867">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4131">
+        <state>
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="507" column="30" lean-forward="true" selection-start-line="507" selection-start-column="30" selection-end-line="507" selection-end-column="30" />
         </state>
       </provider>
     </entry>
