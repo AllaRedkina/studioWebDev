@@ -160,9 +160,9 @@
                         </div>
                         <ul class="pricing-content">
                             <li><span>от 150$</span> одностраничник</li>
-                            <li><span>от 200$</span> корпоративный, шаблонный</li>
-                            <li><span>от 500$</span> корпоративный, индивидуальный</li>
-                            <li><span>от 600$</span> магазин, шаблонный, до 1000 товара (Wordpress, Joomla)</li>
+                            <li><span>от 200$</span> корпоративный</li>
+                            <li><span>от 500$</span> корпоративный, дизайнерский</li>
+                            <li><span>от 600$</span> магазин до 1000 товара (Wordpress, Joomla)</li>
                             <li><span>от 600$</span> магазин (OpenCart)</li>
                             <li class="enable">первичная SEO оптимизация</li>
                             <li class="enable">подключение SSL</li>
@@ -246,26 +246,26 @@
                             <div class="modal-body">
                                 <form  name="mail_price" method="post" action="mail_price.php" id="mail_price">
                                     <div class="form-group">
-                                        <label for="recipient-phone" class="col-form-label">Ваш телефон:</label>
-                                        <input type="text" class="form-control" id="recipient-phone" name="recipient-phone">
+                                        <label for="recipient_phone" class="col-form-label">Ваш телефон:</label>
+                                        <input name="recipient_phone" type="text" class="form-control" id="recipient_phone">
                                     </div>
                                     <div class="form-group">
-                                        <label for="recipient-email" class="col-form-label">Ваш email:</label>
-                                        <input type="email" class="form-control" id="recipient-email" name="recipient-email">
+                                        <label for="recipient_email" class="col-form-label">Ваш email:</label>
+                                        <input name="recipient_email" type="email" class="form-control" id="recipient_email">
                                     </div>
                                     <div class="form-group">
-                                        <label for="recipient-name" class="col-form-label">Вид услуги:</label>
-                                        <input type="text" class="form-control type-service" id="recipient-name" name="recipient-name">
+                                        <label for="recipient_name" class="col-form-label">Вид услуги:</label>
+                                        <input name="recipient_name" type="text" class="form-control type-service" id="recipient_name">
                                     </div>
                                     <div class="form-group">
-                                        <label for="message-text" class="col-form-label">Подробности:</label>
-                                        <textarea class="form-control" id="message-text" name="message-text"></textarea>
+                                        <label for="message_text" class="col-form-label">Подробности:</label>
+                                        <textarea name="message_text" class="form-control" id="message_text"></textarea>
                                     </div>
                                 </form>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-dark btn-radius btn-brd" data-dismiss="modal">Закрыть</button>
-                                <button type="submit" id="submit_mail_price" class="btn btn-radius btn-brd btn-light btn-radius grd1" onclick='$("#ModalMail").modal("hide")'>Отправить</button>
+                                <button type="submit" id="submit_mail_price" class="btn btn-radius btn-brd btn-light btn-radius grd1" >Отправить</button> <!--onclick='$("#ModalMail").modal("hide")'-->
                             </div>
                         </div>
                     </div>
@@ -420,7 +420,7 @@
 
                             <form name="mailex" method="post" action="subscribe.php" id="subscribe">
                                 <fieldset class="row-fluid">
-                                    <input placeholder="Подпишись на новости.." name="email" type="email" id="email_subscribe" required>
+                                    <input name="email_subscribe" type="email" id="email_subscribe" placeholder="Подпишись на новости.." required>
                                     <button type="submit"  id="submit_subscribe" ><i class="fa fa-envelope-o"></i></button>
                                 </fieldset>
                             </form>

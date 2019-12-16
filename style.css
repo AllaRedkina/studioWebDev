@@ -3332,3 +3332,9 @@ select.mobile-device {
     -moz-border-radius: 25px 0 25px 0;
     border-radius: 25px 0 25px 0;
 }
+
+@media (max-width: 500px) {
+    .disable-nav .owl-nav {
+        display: none;
+    }
+}

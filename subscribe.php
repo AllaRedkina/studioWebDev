@@ -1,5 +1,5 @@
 <?php
-    $email = $_POST['email'];
+    $email = $_POST['email_subscribe'];
 
     //преобразует все символы, декодирует url, удалим пробелы с начала и конца строки
     $email = htmlspecialchars($email);
@@ -16,7 +16,7 @@
     }*/
 
     //через js (custom.js) скрывает поле подписки и выдает сообщение
-    if( mail("allairedkina@gmail.com", "Заявка с сайта", "E-mail: ".$email ,"From: example2@mail.ru \r\n")) {
+    if (mail('StudioWebDevil@gmail.com', 'Подписка на новости', 'Заявка от email: '.$email ,'')) {
 
     // Email has sent successfully, echo a success page.
 
