@@ -244,7 +244,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
+                                <div id="message3"></div>
                                 <form  name="mail_price" method="post" action="mail_price.php" id="mail_price">
+
                                     <div class="form-group">
                                         <label for="recipient_phone" class="col-form-label">Ваш телефон:</label>
                                         <input name="recipient_phone" type="text" class="form-control" id="recipient_phone">
@@ -261,11 +263,12 @@
                                         <label for="message_text" class="col-form-label">Подробности:</label>
                                         <textarea name="message_text" class="form-control" id="message_text"></textarea>
                                     </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-dark btn-radius btn-brd" data-dismiss="modal">Закрыть</button>
+                                        <button type="submit" id="submit_mail_price" class="btn btn-radius btn-brd btn-light btn-radius grd1" >Отправить</button> <!--onclick='$("#ModalMail").modal("hide")'-->
+                                    </div>
+
                                 </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-dark btn-radius btn-brd" data-dismiss="modal">Закрыть</button>
-                                <button type="submit" id="submit_mail_price" class="btn btn-radius btn-brd btn-light btn-radius grd1" >Отправить</button> <!--onclick='$("#ModalMail").modal("hide")'-->
                             </div>
                         </div>
                     </div>

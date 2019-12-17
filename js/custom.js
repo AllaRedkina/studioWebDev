@@ -107,7 +107,7 @@
             $("#message").slideUp(750, function() {
                 $('#message').hide();
                 $('#submit')
-                    .after('<img src="images/ajax-loader.gif" class="loader" />')
+                    .after('<img src="../images/ajax-loader.gif" class="loader" />')
                     .attr('disabled', 'disabled');
                 $.post(action, {
                         first_name: $('#first_name').val(),
@@ -142,7 +142,7 @@
             $("#message2").slideUp(750, function() {
                 $('#message2').hide();
                 $('#submit_subscribe')
-                    .after('<img src="images/ajax-loader.gif" class="loader" />')
+                    .after('<img src="../images/ajax-loader.gif" class="loader" />')
                     .attr('disabled', 'disabled');
                 $.post(action, {
                         email_subscribe: $('#email_subscribe').val()
@@ -155,6 +155,40 @@
                         });
                         $('#submit_subscribe').removeAttr('disabled');
                         if (data.match('success') != null) $('#subscribe').slideUp('slow');
+                    }
+                );
+            });
+            return false;
+        });
+    });
+
+
+    /* ==============================================
+ PRICE MODAL -->
+ =============================================== */
+    jQuery(document).ready(function() {
+        $('#mail_price').submit(function() {
+            var action = $(this).attr('action');
+            $("#message3").slideUp(750, function() {
+                $('#message3').hide();
+                $('#submit_mail_price')
+                    .after('<img src="../images/ajax-loader.gif" class="loader" />')
+                    .attr('disabled', 'disabled');
+                $.post(action, {
+                    recipient_phone: $('#recipient_phone').val(),
+                    recipient_email: $('#recipient_email').val(),
+                    recipient_name: $('#recipient_name').val(),
+                    message_text: $('#message_text').val()
+
+            },
+                    function(data) {
+                        document.getElementById('message3').innerHTML = data;
+                        $('#message3').slideDown('slow');
+                        $('#mail_price img.loader').fadeOut('slow', function() {
+                            $(this).remove()
+                        });
+                        $('#submit_mail_price').removeAttr('disabled');
+                        if (data.match('success') != null) $('#mail_price').slideUp('slow');
                     }
                 );
             });

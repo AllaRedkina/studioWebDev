@@ -78,7 +78,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
     echo "<fieldset>";
     echo "<div id='success_page'>";
-    echo "<h1>Ваша заявка доставлена.</h1>";
+    echo "<h1>Ваш заказ успешно доставлен.</h1>";
     echo "<p>Спасибо, <strong>$first_name</strong>! Наши менеджеры свяжутся с Вами в ближайшее время.</p>";
     echo "</div>";
     echo "</fieldset>";
