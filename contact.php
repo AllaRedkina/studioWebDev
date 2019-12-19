@@ -66,13 +66,16 @@ $e_reply = "Вы можете связаться с $first_name по почте 
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
+/* block because http://prntscr.com/qd0hi2
 $headers = "From: $email" . PHP_EOL;
 $headers .= "Reply-To: $email" . PHP_EOL;
 $headers .= "MIME-Version: 1.0" . PHP_EOL;
 $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
+*/
 
-if(mail($address, $e_subject, $msg, $headers)) {
+if(mail($address, $e_subject, $msg, '')) {
+
 
     // Email has sent successfully, echo a success page.
 

@@ -3012,6 +3012,7 @@ select.mobile-device {
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
+    padding-right: 80px;
 }
 .pricingTable .year{
     width: 80px;
